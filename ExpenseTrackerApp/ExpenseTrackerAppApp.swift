@@ -1,12 +1,5 @@
-//
-//  ExpenseTrackerAppApp.swift
-//  ExpenseTrackerApp
-//
-//  Created by Chaitanya Gajula on 24/05/26.
-//
-
 import SwiftUI
-import CoreData
+internal import CoreData
 
 @main
 struct ExpenseTrackerAppApp: App {
@@ -19,3 +12,4 @@ struct ExpenseTrackerAppApp: App {
         }
     }
 }
+

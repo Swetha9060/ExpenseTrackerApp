@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C1A9BF7E2FC3337200868F46 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9BF7D2FC3337200868F46 /* Package.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C1A9BF5E2FC32DF900868F46 /* ExpenseTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A9BF7D2FC3337200868F46 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		C1A9BF552FC32DF900868F46 = {
 			isa = PBXGroup;
 			children = (
+				C1A9BF7D2FC3337200868F46 /* Package.swift */,
 				C1A9BF602FC32DF900868F46 /* ExpenseTrackerApp */,
 				C1A9BF5F2FC32DF900868F46 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A9BF7E2FC3337200868F46 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
